@@ -1,0 +1,11 @@
+How AcousticPay works? 
+A client having AcousticPay application initiates a mobile payment through their mobile device. Using the  State of the Art technology of AcousticPay, ultrasonic or in-audible data transmission occurs, through, a secure tri-communication among the mobile device, server and POS (Point of Sale) terminal via microphone and speaker. 
+Mobile device and POS terminal sends and receives encrypted data between devices. AcousticPay uses UTAB technology, complete throughput of 2,000 bit per second to send and receive encrypted audio data. 
+Each audio message has four parts, the Initiator, PublicKey, Header and Payload. 
+
+    • Initiator: The initiator tone announces the presence of an audio tone to start SDK demodulation.
+    • Public Key: Audio tone of Public Key.
+    • Header: The header contains the metadata regarding the payload.
+    • Payload: The main or actual data containing portions of the audio. 
+
+
